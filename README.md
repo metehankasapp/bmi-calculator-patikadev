@@ -1,6 +1,6 @@
 
 # BMI Calculator Patika.dev
--Netlify Link (https://thirsty-khorana-f4edc3.netlify.app/): 
+-Netlify Link (https://thirsty-khorana-f4edc3.netlify.app/): </br> 
 -Today I made a Bmı Calculator. 
 
 ## Project Screenshot
