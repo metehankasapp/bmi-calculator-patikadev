@@ -6,10 +6,11 @@ import IconButton from "@mui/material/IconButton";
 import Menu from "@mui/material/Menu";
 import Container from "@mui/material/Container";
 import MenuItem from "@mui/material/MenuItem";
+import MenuIcon from '@mui/icons-material/Menu';
 //react-roter-dom
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
-const pages = ["bmi-form", "bmi-description"];
+const pages = ["", "bmi-description"];
 const pagesNames = ["BMI Form", "What Is BMI"];
 
 const ResponsiveAppBar = () => {
@@ -36,7 +37,7 @@ const ResponsiveAppBar = () => {
               onClick={handleOpenNavMenu}
               color="inherit"
             >
-              Mennu
+              <MenuIcon/>
             </IconButton>
             <Menu
               id="menu-appbar"

@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto Mono", monospace !important;
-
 }
 
 html {
@@ -17,11 +16,18 @@ body {
   background-color: #354f52;
 }
 
+.MuiFormHelperText-root{
+  font-size: 12px !important;
+  color: #2d3748;
+  margin-left: 0 !important;
+}
+
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  flex-direction: column;
+  height: 90vh;
 }
 
 a {
@@ -50,6 +56,7 @@ form {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  border: 1px solid #2f3e46;
 }
 
 form:hover {
@@ -59,4 +66,142 @@ form:hover {
 .MuiOutlinedInput-input {
   color: #cad2c5 !important;
   font-size: 14px !important;
+}
+.desc-area {
+  width: 100%;
+}
+table {
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: auto;
+  width: 100%;
+  height: auto;
+
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.bmı-text{
+  color: #cad2c5;
+  font-size: 25px;
+  margin-top: 40px;
+  font-style: italic;
+}
+.center-ctr {
+  width: 100%;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-normal {
+  font-size: 15px;
+  color: #52796f;
+  margin-bottom: 40px;
+}
+
+.header-5 {
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: #cad2c5;
+  margin-bottom: 20px;
+}
+
+.form-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form-header h5 {
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: #cad2c5;
+}
+
+.form-btn {
+  color: #cad2c5;
+  border: none;
+  outline: none;
+  background-color: #2f3e46;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 30px;
+}
+
+.form-btn:focus {
+  color: #cad2c5;
+  border: none;
+  outline: none;
+}
+
+table * {
+  border: none;
+  color: #2f3e46 !important;
+}
+table thead tr {
+  color: #2d3748;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+}
+table thead tr th {
+  background: #cad2c5;
+  padding: 1rem 1.5rem;
+
+  vertical-align: middle;
+  border-bottom: 1px solid #52796f;
+}
+table tbody tr:nth-child(odd) td {
+  background: #cad2c5;
+}
+table tbody tr:nth-child(even) td {
+  background: rgb(140, 172, 147);
+}
+table tbody td {
+  color: #1a202c;
+  text-align: center;
+  padding: 1.5rem 1.5rem;
+  vertical-align: middle;
+  font-size: 13px;
+  font-weight: normal;
+}
+table tr:last-child td:first-child {
+  border-bottom-left-radius: 0.5rem;
+}
+table th:first-child {
+  border-top-left-radius: 0.5rem;
+}
+table tr:last-child td:last-child {
+  border-bottom-right-radius: 0.5rem;
+}
+table th:last-child {
+  border-top-right-radius: 0.5rem;
+}
+table tr > th:first-child,
+table tr > td:first-child {
+  position: sticky;
+  left: 0;
+}
+
+@media screen and (min-width: 568px) {
+  table {
+    font-family: "Open Sans", sans-serif;
+    position: relative;
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: auto;
+    width: 400px;
+    height: auto;
+
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+      0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
 }

@@ -12,10 +12,11 @@ function App() {
         <ResponsiveAppBar />
         
 
-        <div className="container">
+        <div className="">
           <Routes>
+          <Route path="/" element={<BmıForm />} />
             <Route path="/bmi-description" element={<BmiDescription />} />
-            <Route path="/bmi-form" element={<BmıForm />} />
+            
           </Routes>
         </div>
       </div>
